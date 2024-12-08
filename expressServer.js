@@ -10,7 +10,7 @@ const app = express();
  * Root endpoint that responds with "hello world".
  *
  * @param {Request} req - The Express request object.
- * @param {Response} res - The Express response object.
+ * @param {Response} res - The Express response object
  * @returns {void}
  */
 app.get('/', (req, res) => {
